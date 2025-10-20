@@ -1,0 +1,25 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sttalk"
+version = "0.1.0"
+description = "Reproductions for a talk: concept algebra & feature visualization"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name="Your Name"}]
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "pillow",
+    "tqdm",
+    "matplotlib",
+    "einops",
+    "gensim"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

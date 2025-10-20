@@ -1,0 +1,12 @@
+# Minimal runtime deps (PyTorch install string depends on your CUDA/CPU setup)
+torch
+torchvision
+numpy
+pillow
+tqdm
+matplotlib
+einops
+gensim
+# optional, for CLIP-based extras
+open-clip-torch
+faiss-cpu
