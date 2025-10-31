@@ -1,4 +1,8 @@
 notebooks/assets/
 /notebooks/assets
+/notebooks/data
+notebooks/data
+notebooks/outputs
+/notebooks/outputs
 .venv
 /.venv
